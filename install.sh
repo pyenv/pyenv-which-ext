@@ -1,7 +1,7 @@
 #!/bin/sh
 # Usage: PREFIX=/usr/local ./install.sh
 #
-# Installs pyenv-ccache under $PREFIX.
+# Installs pyenv-which-ext under $PREFIX.
 
 set -e
 
