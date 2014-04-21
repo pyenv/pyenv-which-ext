@@ -55,6 +55,10 @@ $ pyenv which curl
 
 ## History
 
+**0.0.2** (Apr 21, 2014)
+
+* create install script (#1)
+
 **0.0.1** (Apr 20, 2014)
 
 * Initial public release.
