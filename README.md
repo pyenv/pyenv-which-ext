@@ -6,9 +6,30 @@ pyenv.
 
 ## Installation
 
+### Installing as a pyenv plugin
+
 Make sure you have pyenv 0.4.0 or later, then run:
 
     git clone https://github.com/yyuu/pyenv-which-ext.git ~/.pyenv/plugins/pyenv-which-ext
+
+
+### Installing with Homebrew (for OS X users)
+
+Mac OS X users can install pyenv-which-ext with the
+[Homebrew](http://brew.sh) package manager.
+
+*This is the recommended method of installation if you installed pyenv
+ with Homebrew.*
+
+```
+$ brew install pyenv-which-ext
+```
+
+Or, if you would like to install the latest development release:
+
+```
+$ brew install --HEAD pyenv-which-ext
+```
 
 ## Usage
 
