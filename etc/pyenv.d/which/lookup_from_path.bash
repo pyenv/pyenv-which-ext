@@ -11,15 +11,10 @@ remove_from_path() {
 }
 
 lookup_from_path() {
-  local command_to_lookup="$1"
-  local original_path="${PATH}"
-  PATH="$(remove_from_path "${PYENV_ROOT}/shims")"
-  local result="$(command -v "$command_to_lookup" || true)"
-  PATH="${original_path}"
-  echo "$result"
+  PATH="$(remove_from_path "${PYENV_ROOT}/shims")" command -v "$1" || true
 }
 
 # If the "$PYENV_COMMAND_PATH" does not exist,
 if [ -n "$PYENV_COMMAND" ] && [ ! -x "$PYENV_COMMAND_PATH" ]; then
-  PYENV_COMMAND_PATH="$(lookup_from_path "$PYENV_COMMAND" || true)"
+  PYENV_COMMAND_PATH="$(lookup_from_path "$PYENV_COMMAND")"
 fi
