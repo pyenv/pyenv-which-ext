@@ -10,7 +10,7 @@ pyenv.
 
 Make sure you have pyenv 0.4.0 or later, then run:
 
-    git clone https://github.com/yyuu/pyenv-which-ext.git ~/.pyenv/plugins/pyenv-which-ext
+    git clone https://github.com/pyenv/pyenv-which-ext.git ~/.pyenv/plugins/pyenv-which-ext
 
 
 ### Installing with Homebrew (for OS X users)
