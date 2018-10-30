@@ -87,7 +87,7 @@ $ pyenv which curl
 
 ## License
 
-(The MIT License)](LICENSE)
+[(The MIT License)](LICENSE)
 
 Copyright (c) 2014 Yamashita, Yuu <<yamashita@geishatokyo.com>>
 
