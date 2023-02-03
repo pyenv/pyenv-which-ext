@@ -1,3 +1,5 @@
+**[Since Pyenv 1.2.24](https://github.com/pyenv/pyenv/pull/1797), this plugin's functionality is present in the core Pyenv, so this plugin is no longer needed.**
+
 # pyenv-which-ext
 
 **Integrate pyenv and system commands.** This pyenv plugin automatically
